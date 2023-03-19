@@ -32,6 +32,7 @@ impl<T: std::fmt::Debug> Stack<T> {
 }
 
 pub fn driver() {
+    println!("---Stack---");
     let mut stack = Stack::<i32>::new();
     stack.print();
     stack.pop();
